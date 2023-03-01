@@ -1,0 +1,8 @@
+pandas
+numpy==1.24.2
+matplotlib
+seaborn
+plotly
+sklearn
+statsmodels
+dataprep
