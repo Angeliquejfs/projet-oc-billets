@@ -6,3 +6,5 @@ plotly
 sklearn
 statsmodels
 dataprep
+pytest
+
