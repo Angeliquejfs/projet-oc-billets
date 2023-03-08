@@ -16,3 +16,27 @@ if __name__ == '__main__':
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 New_variable=50
 nouvelle_variable=3
+
+# Fonction d'un nombre qui multiplie par 10
+
+def multiply_by_ten(number):
+    """
+    Cette fonction multiplie un nombre par 10.
+    si paire renvoie 10
+    si impaire renvoie 5
+
+    :param number: Le nombre à multiplier.
+    :return: Le résultat de la multiplication.
+    """
+    if number % 2 == 0:
+        return number * 10
+    else:
+        return number * 5
+
+multiply_by_ten(20)
+
+
+
+
+
+
